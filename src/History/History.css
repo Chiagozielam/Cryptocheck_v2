@@ -1,0 +1,36 @@
+.line{
+  border: 1px solid red;
+}
+.history--section h1{
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+.history-section-inner-box {
+  box-shadow: 0px 4px 4px rgba(170, 1, 250, 0.22);
+  display: block;
+  margin-bottom: 3%;
+  padding: 0 2%;
+  padding-top: 2%;
+}
+.history-section-inner-box h4{
+  font-weight: 600;
+  font-size: 14px;
+}
+.history-section-inner-box p{
+  color: #AA01FA;
+  font-size: 14px;
+}
+@media screen and (max-width: 880px) {
+  .history-section-inner-box {
+    margin-bottom: 10%;
+    padding: 4%;
+    padding-left: 6%;
+  }
+  .history-section-inner-box h4{
+    margin-bottom: 10%;
+  }
+  .history-section-inner-box p{
+    margin-bottom: 0;
+  }
+}

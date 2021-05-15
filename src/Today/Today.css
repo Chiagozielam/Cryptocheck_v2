@@ -1,0 +1,51 @@
+.today--section {
+    margin-top: 2%;
+    margin-bottom: 40px;
+    padding: 0 50px;
+}
+.today--section h2 {
+    font-size: 20px;
+}
+.today--section--box {
+    background-color: #AA01FA;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(170, 1, 250, 0.22);
+}
+.top-currency-section {
+    text-align: center;
+    border-right: 1px solid white;
+}
+.top-currency-section:last-child{
+    border: none;
+}
+.top-currency-section h5 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+@media (max-width: 880px) {
+    .today--section--box{
+        padding: 10px;
+    }
+    .today--section {
+        margin-top: 0;
+        padding: 0 10px;
+    }
+    .eth--section {
+        border-right: none;
+    }
+    .btc--section {
+        border-right: none;
+    }
+    .today--section {
+        margin-top:  50px;
+    }.top-currency-section {
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    .top-currency-section:last-child{
+        border-bottom: none;
+    }
+}

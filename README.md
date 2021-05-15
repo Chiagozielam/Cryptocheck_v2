@@ -7,14 +7,14 @@ A demo real-time online platform to view current prices of bitcoin and other Alt
 ## Features
 
 - Api calls
-- Dark themed
 
 ## Framework
 
-Bulma CSS
+Materialize css
+Ant D
 
 ## Implementations
 
 - React-router-dom
 - React
-- React life cycle hooks
+- React Hooks
